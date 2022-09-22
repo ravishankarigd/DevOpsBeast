@@ -15,8 +15,8 @@ jobs:
         iac_type: 'docker'
         iac_version: 'v1'
         policy_type: 'docker'
-        only_warn: 'true'
-        sarif_upload: 'true'
+        only_warn: true
+        sarif_upload: true
         iac_dir: 'local-policy/'
         policy_path: 'local-policy/'
         
