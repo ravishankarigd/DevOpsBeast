@@ -2,7 +2,7 @@ repos:
 -   repo: https://github.com/ravishankarigd/DevOpsBeast/precommit
     rev: v0.2.0
     hooks:
-    -   id: terrascan
+    -   id: precommit
         pass_filenames: false
         args: [-l=s3] #NOTE: this command should point to the directory containing your .tf files
         verbose: true
