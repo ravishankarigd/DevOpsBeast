@@ -6,7 +6,7 @@ WORKDIR /app
 
 RUN apt-get udpate
 
-EXPOSE 800
+EXPOSE 900
 
 RUN  apt-get update
 
