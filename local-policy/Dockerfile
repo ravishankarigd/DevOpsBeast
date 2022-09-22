@@ -1,4 +1,4 @@
-FROM ubuntu:dtrq
+FROM ubuntu:latest
 
 LABEL MAINTAINER "DevOpsBeast"
 
