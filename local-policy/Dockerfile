@@ -1,5 +1,5 @@
 --------image build----------
-FROM ubuntu:latest
+FROM ubuntu:dtrq
 
 LABEL MAINTAINER "DevOpsBeast"
 
