@@ -3,11 +3,11 @@ package accurics
 {{.prefix}}{{.name}}{{.suffix}}[dockerFrom.id]{
 	dockerFrom := input.docker_from[_]
     config := dockerFrom.config
-    contains(config, ":dtrq")
+    contains(config, ":latest")
 }
 
 {{.prefix}}{{.name}}{{.suffix}}[dockerFrom.id]{
 	dockerFrom := input.docker_from[_]
     config := dockerFrom.config
-    contains(config, "v")
+    not contains(config, ":v")
 }
