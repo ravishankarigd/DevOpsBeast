@@ -1,3 +1,4 @@
+--------image build----------
 FROM ubuntu:latest
 
 LABEL MAINTAINER "DevOpsBeast"
