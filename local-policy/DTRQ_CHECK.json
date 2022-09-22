@@ -2,11 +2,11 @@
     "name": "Baseimage",
     "file": "Baseimage.rego",
     "policy_type": "docker",
-    "resource_type": "docker_expose",
+    "resource_type": "docker_form",
     "template_args": {
         "prefix": "",
         "suffix": "",
-        "name": "Portrange"
+        "name": "Baseimage"
     },
     "severity": "HIGH",
     "description": "Ensure Base Image Name Contains DTRQ",
