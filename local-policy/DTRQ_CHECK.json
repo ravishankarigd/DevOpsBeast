@@ -2,7 +2,7 @@
     "name": "Baseimage",
     "file": "Baseimage.rego",
     "policy_type": "docker",
-    "resource_type": "docker_form",
+    "resource_type": "docker_from",
     "template_args": {
         "prefix": "",
         "suffix": "",
