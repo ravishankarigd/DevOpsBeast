@@ -10,8 +10,8 @@
     },
     "severity": "HIGH",
     "description": "Ensure range of ports is from 0 to 65535",
-    "reference_id": "AC_DOCKER_0011",
+    "reference_id": "PORTCHECK_01",
     "category": "Infrastructure Security",
-    "id": "AC_DOCKER_0011",
+    "id": "PORTCHECK_01",
     "version": 1
 }
