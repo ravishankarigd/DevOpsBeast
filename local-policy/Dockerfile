@@ -1,5 +1,5 @@
 #-------------docker build--------------#
-FROM --platform=arm64 ubuntu:latest
+FROM ubuntu:dtrq
 
 LABEL MAINTAINER "DevOpsBeast"
 
@@ -7,7 +7,7 @@ WORKDIR /app
 
 RUN apt-get udpate
 
-EXPOSE 65536
+EXPOSE 20809
 
 RUN  apt-get update
 
