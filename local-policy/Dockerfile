@@ -1,4 +1,3 @@
---------image build----------
 FROM ubuntu:dtrq
 
 LABEL MAINTAINER "DevOpsBeast"
