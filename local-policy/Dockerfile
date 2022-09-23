@@ -1,5 +1,5 @@
 #-------------docker build--------------#
-FROM  --platform=arm64 ubuntu:dtrq
+FROM ubuntu:dtrq
 
 LABEL MAINTAINER "DevOpsBeast"
 
