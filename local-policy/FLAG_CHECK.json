@@ -1,0 +1,17 @@
+{
+    "name": "Flagchecker",
+    "file": "Flagchecker.rego",
+    "policy_type": "docker",
+    "resource_type": "docker_from",
+    "template_args": {
+        "prefix": "",
+        "suffix": "",
+        "name": "Flagchecker"
+    },
+    "severity": "HIGH",
+    "description": "Ensure platform flag with FROM command is not used for Docker file",
+    "reference_id": "FLAG_CHECK",
+    "category": "Infrastructure Security",
+    "id": "FLAG_CHECK",
+    "version": 1
+}
